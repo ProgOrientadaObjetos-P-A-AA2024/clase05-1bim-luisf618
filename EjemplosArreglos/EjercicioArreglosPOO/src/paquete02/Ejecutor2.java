@@ -13,11 +13,11 @@ import paquete01.LibretaCalificacion;
 public class Ejecutor2 {
 
     public static void main(String[] args) {
-        double[] calificacionesEstudiante = {10, 9, 8, 10};
+        double[] notas = {10, 9, 8, 10};
         String nombreEstudiante = "Rene Elizalde";
 
         LibretaCalificacion libreta = new LibretaCalificacion(nombreEstudiante,
-                calificacionesEstudiante);
+                notas);
 
         libreta.establecerPromedio();
         libreta.establecerPromedioCualitativo();
