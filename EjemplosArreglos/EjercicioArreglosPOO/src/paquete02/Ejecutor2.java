@@ -20,7 +20,12 @@ public class Ejecutor2 {
                 notas);
 
         libreta.establecerPromedio();
+        // Se llama al metodo establecerPromedio para poder dar valor a la
+        // variable promedio, ya que no tiene valor hasta que sea llamado
         libreta.establecerPromedioCualitativo();
+        // Se llama al metodo establecerPromedioCualitativo para poder ejecutar
+        // lo que se encuentra dentro de el, porque mediante este se da valores
+        // a la variable promedioCualitativo
         System.out.printf("\n%s\n", libreta);
     }
 
