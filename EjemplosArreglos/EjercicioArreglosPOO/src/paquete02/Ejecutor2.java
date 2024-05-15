@@ -6,18 +6,20 @@
 package paquete02;
 
 import paquete01.LibretaCalificacion;
+
 /**
  *
  * @author reroes
  */
 public class Ejecutor2 {
+
     public static void main(String[] args) {
-        double [] calificacionesEstudiante = {10, 9 , 8, 10};
+        double[] calificacionesEstudiante = {10, 9, 8, 10};
         String nombreEstudiante = "Rene Elizalde";
-        
-        LibretaCalificacion libreta = new LibretaCalificacion(nombreEstudiante, 
+
+        LibretaCalificacion libreta = new LibretaCalificacion(nombreEstudiante,
                 calificacionesEstudiante);
-        
+
         libreta.establecerPromedio();
         libreta.establecerPromedioCualitativo();
         System.out.printf("\n%s\n", libreta);
