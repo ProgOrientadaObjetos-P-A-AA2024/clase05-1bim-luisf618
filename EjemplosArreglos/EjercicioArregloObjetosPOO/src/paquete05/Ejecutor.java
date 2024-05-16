@@ -17,6 +17,12 @@ public class Ejecutor {
         Profesor profesor2 = new Profesor("Gregory Walsh", "nombramiento");
         Profesor profesor3 = new Profesor("Kevin Page", "nombramiento");
         
+        c1.establecerProfesor(profesor1);
+        c2.establecerProfesor(profesor2);
+        c3.establecerProfesor(profesor3);
+        // Al no existir constructor que reciba un objeto de tipo Profesor,
+        // debemos establecer los valores con el metodo y asi asignar valores
+        // a los objetos
                 
         Calificacion [] lista = {c1, c2, c3}; 
         
